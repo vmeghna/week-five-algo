@@ -1,0 +1,20 @@
+.image-gallery {
+  display: flex;
+}
+.thumbnail {
+  cursor: pointer;
+  margin-right: 10px;
+}
+#largeImage {
+  display: block;
+  margin-top: 20px;
+}
+body {
+  background-color: #f0f0f0;
+  color: #000000;
+}
+
+body.dark-mode {
+  background-color: #000000;
+  color: #f0f0f0;
+}
